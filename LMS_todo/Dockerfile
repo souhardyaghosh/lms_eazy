@@ -18,4 +18,3 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # 5. Start the Website using Gunicorn
 CMD ["gunicorn", "app:app", "--bind", "0.0.0.0:10000", "--timeout", "120"]
-
